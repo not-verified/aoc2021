@@ -129,10 +129,6 @@ class Day12
                 {
                     candidates = neighbors.Except(new HashSet<T>() { (T)Convert.ChangeType(_START, typeof(T)) });
                 }
-                else
-                {
-                    ;
-                }
 
                 foreach (var vertex in candidates)
                 {
