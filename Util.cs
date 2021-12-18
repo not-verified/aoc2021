@@ -14,7 +14,7 @@ class Util
         return ret.ToArray();
     }
 
-    private class Graph<T>
+    public class Graph<T>
     {
         // KoderDojo graph class
         public Graph() { }
@@ -44,7 +44,7 @@ class Util
         }
     }
 
-    private class Route<T>
+    public class Route<T>
     {
         public Route() { }
         public Route(T start)
@@ -64,7 +64,7 @@ class Util
 
         public HashSet<T> visitedVertices = new HashSet<T>();
 
-        public bool isComplete => currentRoute.Last().ToString() == _END;
+        public bool isComplete => currentRoute.Last().ToString() == "_end";
 
         public bool hasReturned = false;
 
