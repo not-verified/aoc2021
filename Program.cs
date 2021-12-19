@@ -4,6 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Day15.Run(exercise: 2);
+        Day17.Run(exercise: 2);
     }
 }
